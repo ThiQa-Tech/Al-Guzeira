@@ -1,0 +1,49 @@
+:root{
+    --spacing:0;
+
+}
+body{
+    direction: rtl;
+    font-family: "Cairo", sans-serif;
+}
+/* footer  */
+footer h6{
+    letter-spacing: normal;
+    font-family: "Cairo", sans-serif;
+}
+
+footer .follow a:not(:first-of-type)
+{
+    margin-left: 0;
+    margin-right: 15px;
+}
+footer .follow a:hover{
+    box-shadow: var(--shadow);
+}
+@media (min-width:767px)  {
+    footer .follow a:not(:first-of-type)
+    {
+        margin-left: 0;
+        margin-right: 5px;
+    }
+}
+/* footer  */
+.quick-contact{
+    direction: ltr;
+}
+@media (max-width:567px) {
+    .quick-contact .contact-box p
+    {
+        font-size: 14px;
+    }
+}
+
+/* start intro text index  */
+.intro-text{
+    direction: ltr;
+}
+.intro-text p{
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+}
+/* End intro text index  */
